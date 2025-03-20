@@ -1,4 +1,5 @@
 import { execa } from 'execa';
+import { existsSync } from 'fs';
 import pc from 'picocolors';
 
 async function detectPackageManager() {
