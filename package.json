@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-tailwind",
+  "version": "1.0.1",
+  "description": "An npm package to set up Tailwind CSS v4 for Nuxt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node index.js"
+  },
+  "keywords": [
+    "nuxt",
+    "tailwind",
+    "setup"
+  ],
+  "author": "Sumir Seth",
+  "url": "https://github.com/sumirseth/nuxt-tailwind",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0",
+    "path": "^0.12.7"
+  },
+  "bin": {
+    "nuxt-tailwind": "index.js"
+  }
+}
