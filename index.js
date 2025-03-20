@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-console.log("Script started!");
 import { installDependencies } from './utils/installDeps.js';
 import { modifyNuxtConfig, createCSSFile } from './utils/modifyFiles.js';
 import { checkExistingTailwind } from './utils/checkExisting.js';
@@ -38,4 +37,5 @@ async function main() {
 
 
 }
+console.log(pc.italic("Greeting from Sumir! 👋 Appreciate your support!"));
 main();
