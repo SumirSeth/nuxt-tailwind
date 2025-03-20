@@ -1,6 +1,7 @@
 import { execa } from 'execa';
 import { existsSync } from 'fs';
 import pc from 'picocolors';
+import { resolve } from 'path';
 
 async function detectPackageManager() {
     const cwd = process.cwd();
